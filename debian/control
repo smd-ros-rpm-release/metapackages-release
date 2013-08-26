@@ -1,0 +1,12 @@
+Source: ros-hydro-viz
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-viz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geometry-experimental, ros-hydro-image-common, ros-hydro-laser-pipeline, ros-hydro-python-qt-binding, ros-hydro-qt-gui-core, ros-hydro-robot, ros-hydro-rqt-common-plugins, ros-hydro-rviz, ros-hydro-vision-opencv
+Description: A metapackage to aggregate several packages.
