@@ -1,0 +1,12 @@
+Source: ros-hydro-simulators
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-simulators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-gazebo-ros-pkgs, ros-hydro-image-common, ros-hydro-perception-pcl, ros-hydro-robot, ros-hydro-rqt-robot-plugins, ros-hydro-stage-ros
+Description: A metapackage to aggregate several packages.
